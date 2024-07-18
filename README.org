@@ -11,9 +11,9 @@ using QLoRA (Quantized Low-Rank Adaptation).
 :END:
 1. Install the required packages:
 
-   #+begin_example
-   pip install -r requirements.txt
-   #+end_example
+   #+begin_src shell
+   poetry run pip install -r requirements.txt
+   #+end_src
 
 2. Prepare your data:
 
@@ -22,9 +22,9 @@ using QLoRA (Quantized Low-Rank Adaptation).
 
 3. Run the training script:
 
-   #+begin_example
-   python scripts/train.py
-   #+end_example
+   #+begin_src shell 
+   poetry run python scripts/train.py
+   #+end_src
 
 ** Project Structure
 :PROPERTIES:
