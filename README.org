@@ -1,0 +1,43 @@
+* Mistral Journal Fine-tuning
+:PROPERTIES:
+:CUSTOM_ID: mistral-journal-fine-tuning
+:END:
+This project fine-tunes the Mistral 7B model on personal journal entries
+using QLoRA (Quantized Low-Rank Adaptation).
+
+** Setup
+:PROPERTIES:
+:CUSTOM_ID: setup
+:END:
+1. Install the required packages:
+
+   #+begin_example
+   pip install -r requirements.txt
+   #+end_example
+
+2. Prepare your data:
+
+   - Place your training data in =data/notes.jsonl=
+   - Place your validation data in =data/notes_validation.jsonl=
+
+3. Run the training script:
+
+   #+begin_example
+   python scripts/train.py
+   #+end_example
+
+** Project Structure
+:PROPERTIES:
+:CUSTOM_ID: project-structure
+:END:
+- =data/=: Contains the training and validation datasets
+- =notebooks/=: Jupyter notebooks for exploration and analysis
+- =scripts/=: Python scripts for training and inference
+- =models/=: Directory to store fine-tuned models
+- =logs/=: Training logs
+
+** License
+:PROPERTIES:
+:CUSTOM_ID: license
+:END:
+This project is licensed under the MIT License.
