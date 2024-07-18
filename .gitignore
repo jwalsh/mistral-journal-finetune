@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Virtual Environment
+venv/
+env/
+
+# Model checkpoints and logs
+models/
+logs/
+
+# Data files
+data/*.jsonl
+
+# Weights & Biases
+wandb/
+
+# macOS
+.DS_Store
+
+# Editor-specific files
+.vscode/
+*.swp
