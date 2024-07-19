@@ -5,6 +5,11 @@
 This project fine-tunes the Mistral 7B model on personal journal entries
 using QLoRA (Quantized Low-Rank Adaptation).
 
+** Access
+
+Access to model ~mistralai/Mistral-7B-v0.1~ is restricted. Visit https://huggingface.co/mistralai/Mistral-7B-v0.1 to ask for access.
+
+  
 ** Setup
 :PROPERTIES:
 :CUSTOM_ID: setup
@@ -26,6 +31,7 @@ using QLoRA (Quantized Low-Rank Adaptation).
    poetry run python scripts/train.py
    #+end_src
 
+
 ** Project Structure
 :PROPERTIES:
 :CUSTOM_ID: project-structure
@@ -35,6 +41,7 @@ using QLoRA (Quantized Low-Rank Adaptation).
 - =scripts/=: Python scripts for training and inference
 - =models/=: Directory to store fine-tuned models
 - =logs/=: Training logs
+
 
 ** License
 :PROPERTIES:

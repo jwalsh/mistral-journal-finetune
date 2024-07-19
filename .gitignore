@@ -26,3 +26,6 @@ wandb/
 # Editor-specific files
 .vscode/
 *.swp
+
+# Additional tooling
+.plandex/
