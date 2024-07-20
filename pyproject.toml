@@ -5,13 +5,18 @@ description = "Fine-tuning Mistral on journal entries"
 authors = ["Jason Walsh <j@wal.sh>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-openai = "^0.27.0"
-click = "^8.0.0"
-transformers = "^4.18.0"
-datasets = "^2.0.0"
-torch = "^1.9.0"
-accelerate = "^0.18.0"
+python = "^3.11"
+accelerate = {git = "https://github.com/huggingface/accelerate.git"}
+bitsandbytes = "^0.41.1"
+click = "^8.1.7"
+datasets = "^2.14.5"
+ipywidgets = "^8.1.1"
+matplotlib = "^3.8.0"
+openai = "^1.3.0"
+peft = {git = "https://github.com/huggingface/peft.git"}
+scipy = "^1.11.3"
+torch = "^2.0.1"
+transformers = {git = "https://github.com/huggingface/transformers.git"}
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.9.2"

@@ -6,12 +6,8 @@ all: data train
 # Setup Poetry environment and install dependencies
 setup:
 	poetry run pip install --upgrade pip
-	poetry run pip install -r requirements.txt
 	poetry install
 	mkdir -p data models logs
-
-freeze:
-	poetry export -f requirements.txt --output requirements.txt
 
 lock:
 	poetry lock
