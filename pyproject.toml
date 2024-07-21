@@ -5,24 +5,24 @@ description = "Fine-tuning Mistral on journal entries"
 authors = ["Jason Walsh <j@wal.sh>"]
 
 [tool.poetry.dependencies]
-python = "^3.11"
-accelerate = {git = "https://github.com/huggingface/accelerate.git"}
-bitsandbytes = "^0.41.1"
+python = "^3.12"
+accelerate = "^0.27.0"
+bitsandbytes = "^0.42.0"
 click = "^8.1.7"
-datasets = "^2.14.5"
-ipywidgets = "^8.1.1"
-matplotlib = "^3.8.0"
-openai = "^1.3.0"
-peft = {git = "https://github.com/huggingface/peft.git"}
-scipy = "^1.11.3"
-torch = "^2.0.1"
-transformers = {git = "https://github.com/huggingface/transformers.git"}
+datasets = "^2.16.0"
+ipywidgets = "^8.1.3"
+matplotlib = "^3.9.0"
+openai = "^1.8.0"
+peft = "^0.7.0"
+scipy = "^1.12.0"
+torch = "^2.2.0"
+transformers = "^4.38.0"
 
 [tool.poetry.dev-dependencies]
-flake8 = "^3.9.2"
-pytest = "^6.2.5"
-sphinx = "^4.2.0"
+flake8 = "^7.0.0"
+pytest = "^8.0.0"
+sphinx = "^7.2.0"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core>=1.8.0"]
 build-backend = "poetry.core.masonry.api"
