@@ -15,7 +15,7 @@ models/
 logs/
 
 # Data files
-data/*.jsonl
+# data/*.jsonl
 
 # Weights & Biases
 wandb/
