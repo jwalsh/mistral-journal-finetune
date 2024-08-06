@@ -3,6 +3,11 @@
 # Default target
 all: data train
 
+# Create virtual environment
+.venv:
+	python -m venv .venv
+	source .venv/bin/activate && pip install --upgrade pip && pip install poetry
+
 # Setup Poetry environment and install dependencies
 setup:
 	poetry run pip install --upgrade pip
