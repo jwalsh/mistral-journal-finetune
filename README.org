@@ -1,3 +1,6 @@
+#+TITLE: mistral-journal-finetune
+#+LAST_MODIFIED: 2024-08-06 06:46:47
+
 * Mistral Journal Fine-tuning
 :PROPERTIES:
 :CUSTOM_ID: mistral-journal-fine-tuning
